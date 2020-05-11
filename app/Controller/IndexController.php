@@ -38,4 +38,11 @@ class IndexController extends AbstractController
 
         return ['data' => 'hello world'];
     }
+
+    public function newFuture()
+    {
+        return [
+            'data' => 'new future'
+        ];
+    }
 }
