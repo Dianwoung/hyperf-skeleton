@@ -32,4 +32,9 @@ class IndexController extends AbstractController
             'data' => $res,
         ];
     }
+
+    public function hello()
+    {
+        return 'hello world';
+    }
 }
