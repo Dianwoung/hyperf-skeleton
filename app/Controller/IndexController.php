@@ -49,7 +49,7 @@ class IndexController extends AbstractController
     public function future2()
     {
         return [
-            'data' => 'new future2'
+            'data' => 'new future2 fix bug'
         ];
     }
 }
