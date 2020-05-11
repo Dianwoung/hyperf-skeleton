@@ -52,4 +52,18 @@ class IndexController extends AbstractController
             'data' => 'new future2 fix bug'
         ];
     }
+
+    public function future3()
+    {
+        return [
+            'data' => '新功能3'
+        ];
+    }
+
+    public function future4()
+    {
+        return [
+            'data' => '新功能2'
+        ];
+    }
 }
