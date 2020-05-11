@@ -32,4 +32,24 @@ class IndexController extends AbstractController
             'data' => $res,
         ];
     }
+
+    public function hello()
+    {
+
+        return ['data' => 'hello world'];
+    }
+
+    public function newFuture()
+    {
+        return [
+            'data' => 'new future'
+        ];
+    }
+
+    public function future2()
+    {
+        return [
+            'data' => 'new future2'
+        ];
+    }
 }
