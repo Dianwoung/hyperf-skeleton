@@ -59,4 +59,11 @@ class IndexController extends AbstractController
             'data' => '新功能3'
         ];
     }
+
+    public function future4()
+    {
+        return [
+            'data' => '新功能2'
+        ];
+    }
 }
