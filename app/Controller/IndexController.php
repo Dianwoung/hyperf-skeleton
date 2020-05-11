@@ -69,7 +69,7 @@ class IndexController extends AbstractController
     public function future5()
     {
         return [
-            'data' => '新功能5'
+            'data' => '新功能5 issue'
         ];
     }
 }
