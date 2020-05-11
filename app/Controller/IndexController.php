@@ -45,4 +45,11 @@ class IndexController extends AbstractController
             'data' => 'new future'
         ];
     }
+
+    public function future2()
+    {
+        return [
+            'data' => 'new future2'
+        ];
+    }
 }
