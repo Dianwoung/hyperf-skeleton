@@ -35,6 +35,7 @@ class IndexController extends AbstractController
 
     public function hello()
     {
-        return 'hello world';
+
+        return ['data' => 'hello world'];
     }
 }
